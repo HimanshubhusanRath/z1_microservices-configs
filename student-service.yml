@@ -1,18 +1,14 @@
-# Common Properties
+# DB properties
+
 spring:
-  application:
-    name: student-service
-
-server:
-  port: 8300
-
-# Eureka Properties
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://localhost:8500/eureka
-
-  instance:
-    hostname: localhost
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservices
+    username: root
+    password: 
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
