@@ -2,3 +2,9 @@
 feign:
   hystrix:
     enabled: true
+
+
+
+# Custom Configs
+school:
+  city: Puri
