@@ -1,0 +1,23 @@
+# Common Properties
+spring:
+  application:
+    name: school-service
+
+server:
+  port: 8400
+
+# Eureka Properties
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8500/eureka
+
+  instance:
+    hostname: localhost   
+         
+# Feign Properties         
+feign:
+  hystrix:
+    enabled: true
