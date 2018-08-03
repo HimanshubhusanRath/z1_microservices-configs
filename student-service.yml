@@ -13,4 +13,4 @@ spring:
 
 # Custom Configs
 student:
-  type: Hostelite
+  type: DaySchol
