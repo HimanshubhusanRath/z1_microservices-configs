@@ -1,1 +1,11 @@
+# Version
+app:
+  version: 1.0.0
 
+# RabbitMQ properties for configuration refresh    
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest   
