@@ -1,6 +1,7 @@
 # Version
 app:
   version: 1.0.0
+  config: CONFIG-1.0
 
 # RabbitMQ properties for configuration refresh    
 spring:
